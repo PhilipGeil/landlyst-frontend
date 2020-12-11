@@ -1,0 +1,107 @@
+.login {
+    min-height: 100vh;
+}
+
+.login-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.regular-login {
+    width: 50%;
+}
+
+.regular-login-options {
+    margin-left: auto;
+    width: 60%;
+}
+
+.login-input {
+    height: 35px;
+    width: 300px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(236, 236, 236);
+    padding: 5px 10px;
+}
+
+.login-submit {
+    background-color: #FD5D5D;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.login-submit:hover {
+    cursor: pointer;
+    background-color: #ff3e3e;
+}
+
+.vertical-divider {
+    width: 4px;
+    height: 60vh;
+    background-color: rgb(236, 236, 236);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.alternative-logins {
+    width: 50%;
+}
+
+.alternative-login-buttons {
+    margin-right: auto;
+    width: 60%;
+}
+
+.alternative-login-btn {
+    width: 250px;
+    padding: 10px 35px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.alternative-login-btn.fb {
+    background-color: #3b5998;
+    margin: 20px 0;
+    color: white;
+}
+
+.alternative-login-btn.fb:hover {
+    cursor: pointer;
+    background-color: #2a4786;
+}
+
+.alternative-login-btn.google {
+    background-color: #ffffff;
+    border: .5px solid rgb(139, 139, 139);
+    box-shadow: 0px .5px black;
+    color: rgb(87, 87, 87);
+}
+
+.alternative-login-btn.google:hover {
+    cursor: pointer;
+    background-color: rgb(243, 243, 243);
+}
+
+.alternative-login-btn.twitter {
+    background-color: #00acee;
+    margin: 20px 0;
+    color: white;
+}
+
+.alternative-login-btn.twitter:hover {
+    cursor: pointer;
+    background-color: #0291ca;
+}
+
+.create-new-link, .forgot-pass-link {
+    text-decoration: none;
+    color: #FD5D5D;
+}

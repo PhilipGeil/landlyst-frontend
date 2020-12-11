@@ -1,0 +1,97 @@
+.top-config-bar {
+    width: 100%;
+    text-align: end;
+    padding-top: 10px;
+}
+
+.login-link {
+    text-decoration: none;
+    color: #FD5D5D;
+    padding-right: 30px;
+}
+
+.login-link:hover {
+    cursor: pointer;
+    color: #ff3d3d;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    width: 300px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+
+.links {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+.link-item {
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 22px;
+    color: #600000;
+}
+
+.link-item:hover {
+    opacity: .7;
+}
+
+.footer {
+    width: 100%;
+    min-height: 150px;
+    background-color: #3d3d3d;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 33%;
+}
+
+.footer-logo-img {
+    width: 300px;
+    margin: auto;
+}
+
+.footer-information {
+    width: 33%;
+}
+
+.footer-options {
+    width: 33%;
+}
+
+.footer-info-text {
+    margin: 2px;
+    color: white;
+}
+
+.footer-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-option-link {
+    text-decoration: none;
+    color: white;
+    margin: 5px 10px;
+    width: 45%;
+}
+
+.footer-option-link:hover {
+    opacity: .8;
+}
+

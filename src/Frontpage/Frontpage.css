@@ -1,0 +1,55 @@
+.frontpage {
+    color: #A00000;
+    min-height: 100vh;
+}
+
+.greeting {
+    width: 60%;
+    margin: 30px auto;
+    text-align: start;
+}
+
+.greeting-text {
+    margin: 0;
+}
+
+.images-container {
+    position: relative;
+    height: 300px;
+}
+
+.images {
+    opacity: .4;
+    position: absolute;
+}
+
+.images-booking {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-item {
+    width: 30%;
+    height: 300px;
+}
+
+.booking-button {
+    border: none;
+    border-radius: 30px;
+    background-color: #FD5D5D;
+    color: white;
+    padding: 12px 55px;
+    font-size: 20px;
+}
+
+.booking-button:hover {
+    cursor: pointer;
+    background-color: #fc4545;
+}
